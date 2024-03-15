@@ -15,12 +15,12 @@
 
 # pipeline template - update to any pipelines under the pipelines folder
 # tensorflow or xgboost
-export PIPELINE_TEMPLATE="tensorflow"
+export PIPELINE_TEMPLATE="xgboost"
 export VERTEX_CMEK_IDENTIFIER= # optional
 export VERTEX_LOCATION="us-west4"
 export VERTEX_NETWORK= # optional
 export VERTEX_PROJECT_ID="dy-test-dev"
-
+###
 # Leave as-is
 export VERTEX_SA_EMAIL=vertex-pipelines@${VERTEX_PROJECT_ID}.iam.gserviceaccount.com
 export PIPELINE_FILES_GCS_PATH=gs://${VERTEX_PROJECT_ID}-pl-assets
