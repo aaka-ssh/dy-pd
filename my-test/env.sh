@@ -17,7 +17,7 @@
 # tensorflow or xgboost
 export PIPELINE_TEMPLATE="xgboost"
 export VERTEX_CMEK_IDENTIFIER= # optional
-export VERTEX_LOCATION="us-west4"
+export VERTEX_LOCATION="us-west2"
 export VERTEX_NETWORK= # optional
 export VERTEX_PROJECT_ID="dy-test-dev"
 ###
